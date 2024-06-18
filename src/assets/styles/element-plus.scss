@@ -1,0 +1,15 @@
+@use 'vars' as *;
+
+.select  {
+  & .el-select__wrapper {
+    background-color: $bg;
+  }
+
+  & .el-select__placeholder {
+    color: rgba(211, 211, 211, 0.8) !important;
+  }
+}
+
+.el-select-dropdown {
+  background-color: $bg;
+}
