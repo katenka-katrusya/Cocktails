@@ -1,6 +1,16 @@
-# cocktail-recipe
+# Суть приложения:
+Проба пера. Знакомство с Vue 3.
+[Cocktails](https://cocktails-theta-nine.vercel.app/)
 
-This template should help get you started developing with Vue 3 in Vite.
+## Что использовалось в проекте?
+  - Vue 3
+  - Vite
+  - Router
+  - Pinia
+  - Element Plus
+
+## Какие проблемы?
+На данный момент, при повторном нажатии на кнопку рандомного коктейля на одной и той же странице, выскакивает ошибка.
 
 ## Recommended IDE Setup
 
