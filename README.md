@@ -1,23 +1,29 @@
 # Суть приложения:
-Проба пера. Знакомство с Vue 3.
+
+Знакомство с Vue 3. 
+Приложение для генерации коктейлей. Можно выбирать рандомный, можно по определённому ингредиенту.
 [Cocktails](https://cocktails-theta-nine.vercel.app/)
 
 ## Что использовалось в проекте?
-  - Vue 3
-  - Vite
-  - Router
-  - Pinia
-  - Element Plus
-  - API
-  - SCSS
+
+- Vue 3
+- Vite
+- Router
+- Pinia
+- Element Plus
+- API
+- SCSS
 
 ## С какими проблемами я столкнулась?
-При повторном нажатии на кнопку рандомного коктейля на одной и той же странице, выскакивала ошибка. 
-Я её решила, поменяв history с createWebHistory() на createWebHashHistory() в Router. Приложение без серверной части, в этом и была проблема. Используется API https://www.thecocktaildb.com/api.php
+
+При повторном нажатии на кнопку рандомного коктейля на одной и той же странице, выскакивала ошибка.
+Я её решила, поменяв history с createWebHistory() на createWebHashHistory() в Router. Приложение без серверной части, в
+этом и была проблема.
 
 ## Recommended IDE Setup
 
-[VSCode](https://code.visualstudio.com/) + [Volar](https://marketplace.visualstudio.com/items?itemName=Vue.volar) (and disable Vetur).
+[VSCode](https://code.visualstudio.com/) + [Volar](https://marketplace.visualstudio.com/items?itemName=Vue.volar) (and
+disable Vetur).
 
 ## Customize configuration
 
