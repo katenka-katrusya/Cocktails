@@ -76,6 +76,10 @@ const goBack = () => {
   align-items: center;
   width: 50%;
   padding: 32px 40px;
+
+  @media (max-width: 767px) {
+    width: 100%;
+  }
 }
 
 .btn {
